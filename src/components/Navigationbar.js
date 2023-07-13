@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 
 const Navigationbar = () => {
     return (
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+        // expand é para recolher a navbar num determinado ponto e collapseOnSelect é o comportamento que a navbar vai ter
+        // Navbar.Toggle e Navbar.Collapse ajudam com a responsividade em dispositivos móveis.
+        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">        
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
+            <Navbar.Collapse id="navbarScroll"> 
                 <Nav>
                     <NavLink eventKey="1" as={Link} to="/">Home</NavLink>
                     <NavLink eventKey="2" as={Link} to="/login">Login</NavLink>
