@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Detergente",
+    "price": "3.4"
+  },
+  {
+    "id": 2,
+    "name": "Sabão em pó AMO",
+    "price": "5.0"
+  },
+  {
+    "id": 3,
+    "name": "Vassoura de palha",
+    "price": "17.0"
+  },
+  {
+    "id": 4,
+    "name": "Amaciante",
+    "price": "4.0"
+  },
+  {
+    "id": 5,
+    "name": "Esponja de louça",
+    "price": "3.78"
+  },
+  {
+    "id": 6,
+    "name": "Vassoura de palha",
+    "price": "17.0"
+  }
+]
