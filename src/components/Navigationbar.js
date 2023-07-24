@@ -17,7 +17,7 @@ const Navigationbar = (props) => {
                         <NavLink eventKey="2" as={Link} to="/login">Login</NavLink>
                         <NavLink eventKey="3" as={Link} to="/signup">Signup</NavLink>
                         <NavDropdown title="Produtos" id="produtos-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Cadastrar</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/products/add">Cadastrar</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Editar</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Deletar</NavDropdown.Item>
                         </NavDropdown>
